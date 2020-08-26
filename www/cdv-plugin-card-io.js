@@ -1,6 +1,6 @@
-function CardioPlugin() {
+function CardIO() {
 }
 
 exports.scanCard = function (onSuccess, onFailure, options) {
-    cordova.exec(onSuccess, onFailure, "CardioPlugin", "scanCard", [options]);
+    cordova.exec(onSuccess, onFailure, "CardIO", "scanCard", [options]);
 };
